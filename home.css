@@ -75,16 +75,8 @@
     background-color: mintcream;
 }
 
-.form-control {
-	width:10vw;
-}
-
 .login-container {
     margin: auto;
     width: 13%;
     padding: 10px;
-}
-
-#inputUsername, #inputPassword {
-	margin-bottom: 10px;
 }

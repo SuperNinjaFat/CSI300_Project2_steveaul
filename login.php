@@ -16,7 +16,7 @@
  * Date: 4/21/2018
  * Time: 5:59 PM
  */
-
+include mysqli;
 $user = 'SuperNinjaFat';
 $password = 'root';
 $db = 'inventory';
@@ -39,7 +39,7 @@ $success = mysqli_real_connect(
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
-<div class="container login-container">
+<div class="container">
     <h4>Login here, man!</h4>
     <input type="username" id="inputUsername" class="form-control" placeholder="Username" required>
     <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
