@@ -75,7 +75,6 @@ $success = mysqli_real_connect(
 		var loginbox = document.getElementById("mydivheader");
 		loginvar.addEventListener("click", function() {
 			loginbox.parentElement.parentElement.style.display = loginbox.parentElement.parentElement.style.display === 'block' ? 'none' : 'block';
-			console.log(document.getElementById("logintab").innerHTML);
 			var text_to_change = document.getElementById("mydivheader").childNodes[0];
 			text_to_change.nodeValue = document.getElementById("logintab").innerHTML;
 		});

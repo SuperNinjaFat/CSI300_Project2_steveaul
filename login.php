@@ -33,6 +33,12 @@ $success = mysqli_real_connect(
     $port
 );
 
+function sayploopy() {
+    if (intval($_POST('inputUsername')) == 5) {
+        echo 'PLOOPY!';
+    }
+}
+
 ?>
 <head>
     <link rel="stylesheet" type="text/css" href="home.css">
@@ -41,9 +47,10 @@ $success = mysqli_real_connect(
 <body>
 <div class="container">
     <h4>Login here, man!</h4>
-    <input type="username" id="inputUsername" class="form-control" placeholder="Username" required>
+    <input type="username" id="inputUsername" class="form-control" placeholder="5" required>
     <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
     <button class="btn btn-primary" type="submit">Login</button>
+    <button class="btn btn-primary" onclick="">PLOOPY!<?php sayploopy();?></button>
 </div>
 </body>
 </html>
