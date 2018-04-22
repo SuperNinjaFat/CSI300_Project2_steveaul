@@ -1,0 +1,76 @@
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: left;
+    display: none;
+}
+
+#mydivheader {
+    padding: 10px;
+    position: relative;
+    display: block;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+#mydivclose {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    padding: 12px 16px;
+    transform: translate(0%, -50%);
+    background-color: #666;
+    color: #ffffff;
+}
+#mydivclose:hover {
+    background-color: #222;
+}
+
+.card {
+    margin: fill;
+}
+
+.card-body {
+    padding: 10px;
+    margin: 20px 50px;
+    width: 80%;
+    display: block;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    background-color: #e6e6e6;
+    color: #262626;
+}
+
+.tab {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: block;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    background-color: #666;
+    color: #ffffff;
+}
+.tab:hover {
+    background-color: #222;
+}
+#messagename {
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #a9a9a9;
+    color: #ffffff;
+}
+#messagename:hover {
+    background-color: #7a7a7a;
+}
+
+#message-feed {
+    margin: auto;
+}
+
+.bg-light {
+    background-color: mintcream;
+}

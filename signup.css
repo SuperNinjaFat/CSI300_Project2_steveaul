@@ -1,0 +1,42 @@
+.card {
+    margin: fill;
+}
+
+.card-body {
+    padding: 10px;
+    margin: 20px 50px;
+    width: 80%;
+    display: block;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    background-color: #e6e6e6;
+    color: #262626;
+}
+
+.tab {
+    padding: 10px;
+    margin: 40px;
+    width: 200px;
+    display: block;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    background-color: #666;
+    color: #ffffff;
+}
+.tab:hover {
+    background-color: #222;
+}
+
+.bg-light {
+    background-color: mintcream;
+}
+
+.signup-container {
+    margin: fill;
+    min-width: 40%;
+    margin-auto;
+}
+
+body {
+    display: flex;
+}
