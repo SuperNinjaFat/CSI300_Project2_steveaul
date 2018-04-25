@@ -55,7 +55,7 @@ $success = mysqli_real_connect(
 		<header>
 			<div id="mydivheader">Login<span id="mydivclose" class="close">&times;</span></div>
 		</header>
-		<iframe id="myFrame" src="/login.php" style="height:380px;width:100%"></iframe>
+		<iframe id="myFrame" src="login.php" style="height:380px;width:100%"></iframe>
 	</div>
 
 
